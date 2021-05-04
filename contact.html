@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--DCCC IMM 120 : Ann-Marie Smith - Spring 2021 - Lesson 15 - Final - tjudge-->
+<title>Head in the clouds</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+<header><h1 id="top">Head in the Clouds</h1></header>
+<nav>
+  <ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="learn.html">LEARN</a></li>
+  <li><a href="practice.html">PRACTICE</a></li>
+  </ul>
+</nav>
+<main>
+<h2>Contact Us</h2>
+<p>If you have a question or comment about this page, feel free to contact us</p>
+<form method="post" action="#self">
+<!-- To prevent any spam, this is a non-functioning form-->
+<label for="confname">First Name:</label><input type="text" name="confname" id="confname" required>		
+<label for="conlname">Last Name:</label><input type="text" name="conlname" id="conlname" required>		
+<label for="conemail">Email:</label><input type="email" name="conemail" id="conemail" required>			
+<label for="conphone">Phone:</label><input type="tel" name="conphone" id="conphone">
+<label for="concomments">Comments: </label>
+<textarea rows="2" cols="20" name="concomments"
+id="concomments" required></textarea>			
+<input type="submit" name="Submit" id="Submit">
+	</form>
+</main>
+<footer>
+<hr>
+<nav>	
+  <ul>
+  <li><a id="aboutBtn">ABOUT</a></li>
+  <li>Copyright &copy; 2021</li>
+  <li><a href="contact.html" class="active">CONTACT</a></li>
+	</ul>
+</nav>	  
+</footer>
+<!-- The Modal -->
+<div id="aboutModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>About Head in the Clouds</h2>
+    </div>
+    <div class="modal-body">
+      <p>This site was developed by Tom Judge for DCCC IMM 120 in Spring of 2021</p>
+      <p>The instructor for this class was Ann-Marie Smith</p>
+    </div>
+    <div class="modal-footer">
+      <h3>This assignment was the final project</h3>
+    </div>
+  </div>
+
+</div>	
+</div>
+<script src="js/elements.js"></script>
+	</body></html>
