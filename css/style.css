@@ -18,7 +18,7 @@ dt {color: #002171;}
 .resort {color: #1976D2;font-weight: bold;}
 #contact {font-size: 90%}
 footer {font-family: sans-serif, "Georgia", "Times New Roman";font-style: italic;font-size: 75%;padding:2em;background-color: #fff;}
-table {border:2px solid #3399CC;border-collapsed:collapse;}
+table {border:2px solid #3399CC;border-collapsed:collapse;width:50%;}
 td,th{padding:0.5em;border:2px solid #3399CC;}
 td{text-align:center;}
 .text{align;left;}
